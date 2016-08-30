@@ -44,12 +44,3 @@
     border-left: 10px solid #5c9a5c;
     display: none;
 }
-
-#preview {
-    opacity: 0.5;
-}
-
-#preview.sent {
-    opacity: 1;
-    transition: opacity 300ms;
-}
