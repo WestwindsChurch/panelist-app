@@ -11,9 +11,11 @@ $form.submit(function (e) {
     $preview.html($input.val());
     $preview.addClass('sent');
 
-    $input.val('');
 
-    $message.slideDown(150).delay(2000).slideUp(300);
+    $message.find('.text').html($input.val().length ? 'Sent!' : 'Text Erased!');
+    $message.stop().slideDown(150).delay(2000).slideUp(300);
+
+    $input.val('');
 });
 
 $input.keyup(function (e) {
