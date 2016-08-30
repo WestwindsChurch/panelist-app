@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #222;
+    background: radial-gradient(ellipse at center,  #aad9f1 0%, #73b8db 100%) no-repeat;
+    font-family: 'Lora', serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.display-text {
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    font-size: 3em;
+    margin: 0;
+    top: 50%;
+    left: 5%;
+    color: #569cbd;
+    text-shadow: 1px 1px 0px #baeaff, -1px -1px 0px #406373;
+    transform: translateY(-50%);
+}

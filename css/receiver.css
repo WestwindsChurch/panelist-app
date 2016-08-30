@@ -1,0 +1,10 @@
+#receiver {
+    width: 90vh;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.element {
+    display: inline-block;
+    transform: rotate(90deg);
+}
