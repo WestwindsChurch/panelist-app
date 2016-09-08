@@ -7,3 +7,22 @@
 .element {
     display: inline-block;
 }
+
+#receiver-name {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+#receiver-title {
+    margin: 0;
+    text-align: center;
+    font-size: 4em;
+}
+
+#receiver-inputs {
+    width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+}

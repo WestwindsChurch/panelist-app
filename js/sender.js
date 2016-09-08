@@ -6,6 +6,7 @@ var $input = $('#data'),
 $form.submit(function (e) {
 
     e.preventDefault();
+
     localStorage.setItem('storage-send-data', $input.val());
 
     $preview.html($input.val());

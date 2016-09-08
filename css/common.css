@@ -31,3 +31,36 @@ body {
     color: #FF4500;
     transform: translateY(-50%);
 }
+
+label {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+    font-size: 2em;
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5em;
+    background: none;
+    border: 1px solid #508ba5;
+    padding: 0.5em;
+    font-style: regular;
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="submit"] {
+    border: none;
+    background: #508ba5;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.5em;
+    box-shadow: none;
+    outline: none;
+}
+
+input[type="submit"]:active {
+    background: #FF4500;
+}
