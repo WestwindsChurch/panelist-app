@@ -44,7 +44,7 @@ input[type="text"] {
     width: 100%;
     margin-bottom: 0.5em;
     background: none;
-    border: 1px solid #508ba5;
+    border: 1px solid #222;
     padding: 0.5em;
     font-style: regular;
     outline: none;
@@ -53,14 +53,17 @@ input[type="text"] {
 
 input[type="submit"] {
     border: none;
-    background: #508ba5;
-    color: #fff;
+    background: transparent;
+    border: 2px solid;
+    color: #222;
     text-transform: uppercase;
     padding: 0.5em;
     box-shadow: none;
     outline: none;
+    cursor: pointer;
 }
 
 input[type="submit"]:active {
-    background: #FF4500;
+    background: #222;
+    color: #fff;
 }
