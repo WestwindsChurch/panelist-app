@@ -15,6 +15,3 @@ $form.submit(function (e) {
 
     $input.val('');
 });
-
-//jacob's changes
-//

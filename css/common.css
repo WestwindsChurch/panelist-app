@@ -20,16 +20,5 @@ body {
     top: 50%;
     left: 5%;
     color: #FF4500;
-    /*text-shadow: 1px 1px 0px #baeaff, -1px -1px 0px #406373;*/
     transform: translateY(-50%);
 }
-
-/*
-Begin Jacob's changes
-
-Changed colors of radial gradient
-Changed color of font
-Disabled shadow of font
-Changed font to Fjalla (after referencing the Google API in the HTML doc
-
-*/
