@@ -5,8 +5,8 @@ html {
 
 body {
     color: #222;
-    background: radial-gradient(ellipse at center,  #aad9f1 0%, #73b8db 100%) no-repeat;
-    font-family: 'Lora', serif;
+    background: radial-gradient(ellipse at center,  #C2E3D7 0%, #479C93 100%) no-repeat;
+    font-family: 'Fjalla One', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
 }
@@ -19,7 +19,17 @@ body {
     margin: 0;
     top: 50%;
     left: 5%;
-    color: #569cbd;
-    text-shadow: 1px 1px 0px #baeaff, -1px -1px 0px #406373;
+    color: #FF4500;
+    /*text-shadow: 1px 1px 0px #baeaff, -1px -1px 0px #406373;*/
     transform: translateY(-50%);
 }
+
+/*
+Begin Jacob's changes
+
+Changed colors of radial gradient
+Changed color of font
+Disabled shadow of font
+Changed font to Fjalla (after referencing the Google API in the HTML doc
+
+*/

@@ -2,23 +2,24 @@
     width: 500px;
     max-width: 90%;
     margin: 0 auto;
+	margin-top: 10em;
 }
 
 #form label {
-    font-size: 1em;
+    font-size: 2em;
     display: block;
     margin-bottom: 0.5em;
 }
 
 #form input[type="text"] {
-    font-size: 1em;
+    font-size: 2em;
     display: block;
     width: 100%;
     margin-bottom: 0.5em;
     background: none;
     border: 1px solid #508ba5;
     padding: 0.5em;
-    font-style: italic;
+    font-style: regular;
     outline: none;
     box-shadow: none;
 }
@@ -34,7 +35,7 @@
 }
 
 #form input[type="submit"]:active {
-    background: #3d677b;
+    background: #FF4500;
 }
 
 #message {
@@ -44,3 +45,10 @@
     border-left: 10px solid #5c9a5c;
     display: none;
 }
+
+/*
+Added margin-top to #form
+Changed #form input background acive color
+Disabled italics in #form input (input[type="text"]
+Increased size of label and input text
+*/
