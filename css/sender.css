@@ -45,3 +45,8 @@
     border-left: 10px solid #5c9a5c;
     display: none;
 }
+
+#preview {
+    top: 70%;
+    transform: none;
+}

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('../fonts/fjalla-one/fjallaone-regular-webfont.woff2') format('woff2'),
+    url('../fonts/fjalla-one/fjallaone-regular-webfont.woff') format('woff');
+    url('../fonts/fjalla-one/fjallaone-regular-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     height: 100%;
     width: 100%;
